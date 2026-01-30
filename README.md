@@ -1,3 +1,31 @@
+# Introduction to CodeQL - GitHub Skills Exercise
+
+## 📚 What This Project Does
+
+This repository is an **interactive learning exercise** that teaches developers how to use **GitHub CodeQL** for automated security scanning. It provides hands-on experience with:
+
+- **GitHub Advanced Security** and Code Scanning features
+- **CodeQL** - GitHub's semantic code analysis engine
+- **Vulnerability Detection** - Finding and fixing security issues like SQL injection
+- **Pull Request Integration** - Security analysis in the development workflow
+
+The project includes a simple Flask-based BookStore web application with intentionally vulnerable code patterns to demonstrate how CodeQL identifies security issues and helps prevent them from reaching production.
+
+### 🎯 Key Components
+
+- **Sample Application**: Flask web app (`/server`) with book management functionality
+- **Vulnerable Code**: Intentional SQL injection examples for learning purposes
+- **Learning Steps**: Guided exercises in `.github/steps/` directory
+- **Automated Scanning**: GitHub Actions workflows with CodeQL analysis
+
+### 🚨 Security Notice
+
+⚠️ This repository contains intentionally vulnerable code for educational purposes. **DO NOT use in production.**
+
+For a detailed overview, see [PROJECT_OVERVIEW.md](PROJECT_OVERVIEW.md).
+
+---
+
 <div align="center">
 
 # 🎉 Congratulations noemiandrea! 🎉
